@@ -1,0 +1,30 @@
+@import "Assets/Styles";
+
+.lg-container{
+    
+    min-width: 360px;
+    min-height: 360px;
+    border: 1px solid $primary-color;
+    border-radius: $border-radius-xs;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding: $padding-lg;
+   
+    &_title{
+        text-align: center;
+        color: $primary-color !important;
+    }
+    &_body{
+       
+    }
+    &_button{
+        background: $primary-color;
+        min-width: 180px;
+
+        font-weight: bold;
+        color: $white-color;
+    }
+}
